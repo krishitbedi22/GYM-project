@@ -4,60 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>IronPulse Fitness Studio | Jaipur</title>
-
-    <!-- Tailwind CSS -->
+    <title></title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-black text-white">
 
     <!-- HEADER / NAVBAR -->
-    <header class="bg-zinc-950 border-b border-zinc-800">
-        <nav class="max-w-7xl mx-auto px-5 py-5 flex justify-between items-center">
+    <header class=" sticky top-0 z-50 bg-zinc-950 border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-5 py-5 flex justify-between items-center">
 
-            <a href="#home" class="flex items-center gap-2 shrink-0">
+            <a href="home" class="flex items-center gap-2 shrink-0">
             <img src="image/img16.jpeg" alt="IRONPULSE Logo" class="w-16 h-16 object-contain rounded-full">
             <span class="text-2xl font-black tracking-wide">IRON<span class="text-orange-500">PULSE</span>
             </a>
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex gap-6 items-center text-sm">
-                <a href="#home" class="hover:text-orange-500">Home</a>
-                <a href="#about" class="hover:text-orange-500">About</a>
-                <a href="#programs" class="hover:text-orange-500">Programs</a>
-                <a href="#trainers" class="hover:text-orange-500">Trainers</a>
-                <a href="#membership" class="hover:text-orange-500">Membership</a>
-                <a href="#contact" class="hover:text-orange-500">Contact</a>
+                <a href="home" class="hover:text-orange-500">Home</a>
+                <a href="about" class="hover:text-orange-500">About</a>
+                <a href="programs" class="hover:text-orange-500">Programs</a>
+                <a href="trainers" class="hover:text-orange-500">Trainers</a>
+                <a href="membership" class="hover:text-orange-500">Membership</a>
+                <a href="contact" class="hover:text-orange-500">Contact</a>
             </div>
 
-            <a href="#membership"
-               class="hidden md:block bg-orange-500 text-black px-5 py-3 font-bold rounded">
-                JOIN NOW
-            </a>
+            <a href="membership" class="hidden md:block bg-orange-500 text-black px-5 py-3 font-bold rounded"> JOIN NOW </a>
 
             <!-- Simple Mobile Menu -->
-            <details class="md:hidden relative">
-                <summary class="cursor-pointer list-none bg-orange-500 text-black px-4 py-2 font-bold rounded">☰</summary>
+            <div class="md:hidden relative">
+                <div class="cursor-pointer list-none bg-orange-500 text-black px-4 py-2 font-bold rounded">☰</div>
 
                 <div class="absolute right-0 top-12 bg-zinc-900 w-48 p-5 space-y-4 z-50 shadow-lg">
-                    <a href="#home" class="block">Home</a>
-                    <a href="#about" class="block">About</a>
-                    <a href="#programs" class="block">Programs</a>
-                    <a href="#trainers" class="block">Trainers</a>
-                    <a href="#membership" class="block">Membership</a>
-                    <a href="#contact" class="block">Contact</a>
+                    <a href="home" class="block">Home</a>
+                    <a href="about" class="block">About</a>
+                    <a href="programs" class="block">Programs</a>
+                    <a href="trainers" class="block">Trainers</a>
+                    <a href="membership" class="block">Membership</a>
+                    <a href="contact" class="block">Contact</a>
                 </div>
-            </details>
-
-        </nav>
+            </div>
+        </div>
     </header>
 
 
     <!-- HERO SECTION -->
     <section id="home"
         class="min-h-[600px] flex items-center bg-cover bg-center"
-        style="background-image: linear-gradient(to right, rgba(0,0,0,0.95), rgba(0,0,0,0.4)), url('image/img13.jpg');">
+        style="background-image: linear-gradient(to right, rgba(0,0,0,0.95), rgba(0,0,0,0.4)), url(image/img13.jpg);">
 
         <div class="max-w-7xl mx-auto px-5 py-24 w-full">
 
@@ -76,11 +70,10 @@
                 not just reps. Build strength, confidence and discipline.
             </p>
 
-            <a href="#membership"
+            <a href="membership"
                class="inline-block mt-8 bg-orange-500 text-black px-8 py-4 font-bold rounded hover:bg-orange-400">
                 Start Your Journey →
             </a>
-
         </div>
     </section>
 
@@ -90,25 +83,40 @@
         <div class="max-w-7xl mx-auto px-5 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
 
             <div>
-                <h2 class="text-3xl font-black">STRENGTH</h2>
-                <p class="text-sm">Build Real Power</p>
+                <h2 class="text-3xl font-black">
+                    STRENGTH
+                </h2>
+                <p class="text-sm">
+                    Build Real Power
+                </p>
             </div>
 
             <div>
-                <h2 class="text-3xl font-black">FUNCTIONAL</h2>
-                <p class="text-sm">Move Better</p>
+                <h2 class="text-3xl font-black">
+                    FUNCTIONAL
+                </h2>
+                <p class="text-sm">
+                    Move Better
+                </p>
             </div>
 
             <div>
-                <h2 class="text-3xl font-black">HIIT</h2>
-                <p class="text-sm">Push Your Limits</p>
+                <h2 class="text-3xl font-black">
+                    HIIT
+                </h2>
+                <p class="text-sm">
+                    Push Your Limits
+                </p>
             </div>
 
             <div>
-                <h2 class="text-3xl font-black">COMMUNITY</h2>
-                <p class="text-sm">Grow Together</p>
+                <h2 class="text-3xl font-black">
+                    COMMUNITY
+                </h2>
+                <p class="text-sm">
+                    Grow Together
+                </p>
             </div>
-
         </div>
     </section>
 
@@ -143,17 +151,16 @@
                 </p>
 
                 <div class="mt-6 space-y-3">
-                    <p>✓ Certified strength and conditioning coaches</p>
-                    <p>✓ Small group sessions, more personal attention</p>
-                    <p>✓ Community-driven, judgment-free space</p>
+                    <p>Certified strength and conditioning coaches</p>
+                    <p>Small group sessions, more personal attention</p>
+                    <p>Community-driven, judgment-free space</p>
                 </div>
 
-                <a href="#contact"
+                <a href="contact"
                    class="inline-block mt-7 border border-orange-500 text-orange-500 px-6 py-3 font-bold rounded hover:bg-orange-500 hover:text-black">
                     Learn More →
                 </a>
             </div>
-
         </div>
     </section>
 
@@ -176,7 +183,6 @@
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
 
-                <!-- Program 1 -->
                 <div class="bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800">
                     <img src="image/img15.jpg" alt="Strength training" class="w-full h-56 object-cover">
 
@@ -186,13 +192,10 @@
                             Build muscle, improve strength and learn proper
                             lifting techniques with guided training.
                         </p>
-                        <a href="#contact" class="inline-block mt-5 text-orange-500 font-bold">
-                            Enquire Now →
-                        </a>
+                        <a href="contact" class="inline-block mt-5 text-orange-500 font-bold">Enquire Now →</a>
                     </div>
                 </div>
 
-                <!-- Program 2 -->
                 <div class="bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800">
                     <img src="image/img14.jpg" alt="Functional fitness workout" class="w-full h-56 object-cover">
 
@@ -202,17 +205,12 @@
                             Improve everyday movement, balance, mobility and
                             overall physical performance.
                         </p>
-                        <a href="#contact" class="inline-block mt-5 text-orange-500 font-bold">
-                            Enquire Now →
-                        </a>
+                        <a href="#contact" class="inline-block mt-5 text-orange-500 font-bold">Enquire Now →</a>
                     </div>
                 </div>
 
-                <!-- Program 3 -->
                 <div class="bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800">
-                    <img src="image/img12.jpg"
-                         alt="High intensity workout"
-                         class="w-full h-56 object-cover">
+                    <img src="image/img12.jpg" alt="High intensity workout" class="w-full h-56 object-cover">
 
                     <div class="p-6">
                         <h3 class="text-2xl font-bold">HIIT Training</h3>
@@ -220,23 +218,22 @@
                             Challenge your stamina with guided high-intensity
                             intervals and recovery periods.
                         </p>
-                        <a href="#contact" class="inline-block mt-5 text-orange-500 font-bold">
-                            Enquire Now →
-                        </a>
+                        <a href="#contact" class="inline-block mt-5 text-orange-500 font-bold"> Enquire Now → </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
 
-    <!-- WHY CHOOSE US -->
+    <!-- why choose us -->
     <section class="py-20">
         <div class="max-w-7xl mx-auto px-5">
 
             <div class="text-center mb-12">
-                <p class="text-orange-500 font-bold">THE IRONPULSE DIFFERENCE</p>
+                <p class="text-orange-500 font-bold">
+                    THE IRONPULSE DIFFERENCE
+                </p>
                 <h2 class="text-3xl md:text-5xl font-black mt-3">
                     WHY CHOOSE US?
                 </h2>
@@ -245,37 +242,52 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <div class="p-6 bg-zinc-900 rounded-lg border border-zinc-800">
-                    <div class="text-4xl text-orange-500">01</div>
-                    <h3 class="text-xl font-bold mt-4">Expert Coaches</h3>
+                    <div class="text-4xl text-orange-500">
+                        01
+                    </div>
+                    <h3 class="text-xl font-bold mt-4">
+                        Expert Coaches
+                    </h3>
                     <p class="text-gray-400 mt-3">
                         Get guidance on technique, training and progress.
                     </p>
                 </div>
 
                 <div class="p-6 bg-zinc-900 rounded-lg border border-zinc-800">
-                    <div class="text-4xl text-orange-500">02</div>
-                    <h3 class="text-xl font-bold mt-4">Personal Attention</h3>
+                    <div class="text-4xl text-orange-500">
+                        02
+                    </div>
+                    <h3 class="text-xl font-bold mt-4">
+                        Personal Attention
+                    </h3>
                     <p class="text-gray-400 mt-3">
                         Small group sessions help you learn at your own pace.
                     </p>
                 </div>
 
                 <div class="p-6 bg-zinc-900 rounded-lg border border-zinc-800">
-                    <div class="text-4xl text-orange-500">03</div>
-                    <h3 class="text-xl font-bold mt-4">Modern Equipment</h3>
+                    <div class="text-4xl text-orange-500">
+                        03
+                    </div>
+                    <h3 class="text-xl font-bold mt-4">
+                        Modern Equipment
+                    </h3>
                     <p class="text-gray-400 mt-3">
                         Train with equipment for strength and conditioning.
                     </p>
                 </div>
 
                 <div class="p-6 bg-zinc-900 rounded-lg border border-zinc-800">
-                    <div class="text-4xl text-orange-500">04</div>
-                    <h3 class="text-xl font-bold mt-4">Supportive Community</h3>
+                    <div class="text-4xl text-orange-500">
+                        04
+                    </div>
+                    <h3 class="text-xl font-bold mt-4">
+                        Supportive Community
+                    </h3>
                     <p class="text-gray-400 mt-3">
                         Work toward your goals in a welcoming environment.
                     </p>
                 </div>
-
             </div>
         </div>
     </section>
@@ -286,7 +298,9 @@
         <div class="max-w-7xl mx-auto px-5">
 
             <div class="text-center mb-12">
-                <p class="text-orange-500 font-bold">MEET YOUR TEAM</p>
+                <p class="text-orange-500 font-bold">
+                    MEET YOUR TEAM
+                </p>
                 <h2 class="text-3xl md:text-5xl font-black mt-3">
                     OUR TRAINERS
                 </h2>
@@ -295,12 +309,14 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
 
                 <div class="bg-zinc-900 rounded-lg overflow-hidden">
-                    <img src="image/img2.webp"
-                         alt="Strength trainer"
-                         class="w-full h-72 object-cover">
+                    <img src="image/img2.webp" alt="Strength trainer" class="w-full h-72 object-cover">
                     <div class="p-5">
-                        <h3 class="text-xl font-bold">Strength Coach</h3>
-                        <p class="text-orange-500 mt-2">Strength & Conditioning</p>
+                        <h3 class="text-xl font-bold">
+                            Strength Coach
+                        </h3>
+                        <p class="text-orange-500 mt-2">
+                            Strength & Conditioning
+                        </p>
                         <p class="text-gray-400 mt-3">
                             Learn safe lifting and strength-building techniques.
                         </p>
@@ -308,12 +324,14 @@
                 </div>
 
                 <div class="bg-zinc-900 rounded-lg overflow-hidden">
-                    <img src="image/img3.webp"
-                         alt="Functional training studio"
-                         class="w-full h-72 object-cover">
+                    <img src="image/img3.webp" alt="Functional training studio" class="w-full h-72 object-cover">
                     <div class="p-5">
-                        <h3 class="text-xl font-bold">Functional Coach</h3>
-                        <p class="text-orange-500 mt-2">Functional Movement</p>
+                        <h3 class="text-xl font-bold">
+                            Functional Coach
+                        </h3>
+                        <p class="text-orange-500 mt-2">
+                            Functional Movement
+                        </p>
                         <p class="text-gray-400 mt-3">
                             Improve movement, balance and workout technique.
                         </p>
@@ -321,18 +339,19 @@
                 </div>
 
                 <div class="bg-zinc-900 rounded-lg overflow-hidden">
-                    <img src="image/img11.jpg"
-                         alt="Personal fitness coaching"
-                         class="w-full h-72 object-cover">
+                    <img src="image/img11.jpg" alt="Personal fitness coaching" class="w-full h-72 object-cover">
                     <div class="p-5">
-                        <h3 class="text-xl font-bold">Personal Coach</h3>
-                        <p class="text-orange-500 mt-2">Fitness Guidance</p>
+                        <h3 class="text-xl font-bold">
+                            Personal Coach
+                        </h3>
+                        <p class="text-orange-500 mt-2">
+                            Fitness Guidance
+                        </p>
                         <p class="text-gray-400 mt-3">
                             Get support in building a consistent fitness routine.
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -343,7 +362,9 @@
         <div class="max-w-7xl mx-auto px-5">
 
             <div class="text-center mb-12">
-                <p class="text-orange-500 font-bold">YOUR FITNESS STARTS HERE</p>
+                <p class="text-orange-500 font-bold">
+                    YOUR FITNESS STARTS HERE
+                </p>
                 <h2 class="text-3xl md:text-5xl font-black mt-3">
                     MEMBERSHIP PLANS
                 </h2>
@@ -351,13 +372,15 @@
                     Choose a plan that suits your goals.
                 </p>
             </div>
-
             <div class="grid md:grid-cols-3 gap-7">
-
                 <!-- Basic -->
                 <div class="border border-zinc-800 bg-zinc-950 p-8 rounded-lg">
-                    <h3 class="text-2xl font-bold">Starter</h3>
-                    <p class="text-gray-400 mt-2">For getting started</p>
+                    <h3 class="text-2xl font-bold">
+                        Starter
+                    </h3>
+                    <p class="text-gray-400 mt-2">
+                        For getting started
+                    </p>
 
                     <h4 class="text-4xl font-black mt-6">
                         ₹1,499<span class="text-base text-gray-400">/month</span>
@@ -369,17 +392,21 @@
                         <p>General workout guidance</p>
                     </div>
 
-                    <a href="#contact"
-                       class="block text-center border border-orange-500 text-orange-500 py-3 mt-8 font-bold rounded hover:bg-orange-500 hover:text-black">
-                        Choose Starter
-                    </a>
+                    <a href="contact"
+                       class="block text-center border border-orange-500 text-orange-500 py-3 mt-8 font-bold rounded hover:bg-orange-500 hover:text-black"> Choose Starter </a>
                 </div>
 
                 <!-- Popular -->
                 <div class="border-2 border-orange-500 bg-zinc-900 p-8 rounded-lg">
-                    <p class="text-orange-500 font-bold">POPULAR PLAN</p>
-                    <h3 class="text-2xl font-bold mt-3">Performance</h3>
-                    <p class="text-gray-400 mt-2">For serious training</p>
+                    <p class="text-orange-500 font-bold">
+                        POPULAR PLAN
+                    </p>
+                    <h3 class="text-2xl font-bold mt-3">
+                        Performance
+                    </h3>
+                    <p class="text-gray-400 mt-2">
+                        For serious training
+                    </p>
 
                     <h4 class="text-4xl font-black mt-6">
                         ₹2,499<span class="text-base text-gray-400">/month</span>
@@ -392,16 +419,18 @@
                         <p>Trainer guidance</p>
                     </div>
 
-                    <a href="#contact"
-                       class="block text-center bg-orange-500 text-black py-3 mt-8 font-bold rounded hover:bg-orange-400">
-                        Choose Performance
-                    </a>
+                    <a href="contact"
+                       class="block text-center bg-orange-500 text-black py-3 mt-8 font-bold rounded hover:bg-orange-400">Choose Performance</a>
                 </div>
 
                 <!-- Premium -->
                 <div class="border border-zinc-800 bg-zinc-950 p-8 rounded-lg">
-                    <h3 class="text-2xl font-bold">Elite</h3>
-                    <p class="text-gray-400 mt-2">For personal attention</p>
+                    <h3 class="text-2xl font-bold">
+                        Elite
+                    </h3>
+                    <p class="text-gray-400 mt-2">
+                        For personal attention
+                    </p>
 
                     <h4 class="text-4xl font-black mt-6">
                         ₹3,999<span class="text-base text-gray-400">/month</span>
@@ -414,12 +443,9 @@
                         <p>Individual progress guidance</p>
                     </div>
 
-                    <a href="#contact"
-                       class="block text-center border border-orange-500 text-orange-500 py-3 mt-8 font-bold rounded hover:bg-orange-500 hover:text-black">
-                        Choose Elite
-                    </a>
+                    <a href="contact"
+                       class="block text-center border border-orange-500 text-orange-500 py-3 mt-8 font-bold rounded hover:bg-orange-500 hover:text-black">Choose Elite</a>
                 </div>
-
             </div>
         </div>
     </section>
@@ -437,11 +463,8 @@
                 Take the first step toward a stronger, healthier you.
             </p>
 
-            <a href="#contact"
-               class="inline-block mt-8 bg-black text-white px-8 py-4 font-bold rounded hover:bg-zinc-800">
-                Book Your First Visit →
-            </a>
-
+            <a href="contact"
+               class="inline-block mt-8 bg-black text-white px-8 py-4 font-bold rounded hover:bg-zinc-800"> Book Your First Visit → </a>
         </div>
     </section>
 
@@ -451,7 +474,9 @@
         <div class="max-w-7xl mx-auto px-5">
 
             <div class="text-center mb-12">
-                <p class="text-orange-500 font-bold">LET'S CONNECT</p>
+                <p class="text-orange-500 font-bold">
+                    LET'S CONNECT
+                </p>
                 <h2 class="text-3xl md:text-5xl font-black mt-3">
                     CONTACT US
                 </h2>
@@ -461,16 +486,18 @@
 
                 <!-- Contact Details -->
                 <div class="space-y-7">
-
                     <div>
-                        <h3 class="text-xl font-bold text-orange-500">Our Location</h3>
+                        <h3 class="text-xl font-bold text-orange-500">
+                            Our Location
+                        </h3>
                         <p class="text-gray-300 mt-2">
                             Malviya Nagar, Jaipur, Rajasthan, India
                         </p>
                     </div>
-
                     <div>
-                        <h3 class="text-xl font-bold text-orange-500">Business Hours</h3>
+                        <h3 class="text-xl font-bold text-orange-500">
+                            Business Hours
+                        </h3>
                         <p class="text-gray-300 mt-2">
                             Monday – Saturday: 6:00 AM – 10:00 PM
                         </p>
@@ -481,9 +508,10 @@
                             Sample timings — confirm with the client.
                         </p>
                     </div>
-
                     <div>
-                        <h3 class="text-xl font-bold text-orange-500">Visit Us</h3>
+                        <h3 class="text-xl font-bold text-orange-500">
+                            Visit Us
+                        </h3>
                         <p class="text-gray-300 mt-2">
                             Find IronPulse Fitness Studio in Malviya Nagar.
                         </p>
@@ -491,17 +519,9 @@
 
                     <!-- Google Map -->
                     <iframe
-                        src="https://maps.google.com/maps?q=Malviya%20Nagar%2C%20Jaipur%2C%20Rajasthan&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                        width="100%"
-                        height="280"
-                        style="border:0"
-                        loading="lazy"
-                        title="Map of Malviya Nagar Jaipur">
+                        src="https://maps.google.com/maps?q=Malviya%20Nagar%2C%20Jaipur%2C%20Rajasthan&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="280" style="border:0" loading="lazy" title="Map of Malviya Nagar Jaipur">
                     </iframe>
-
                 </div>
-
-
                 <!-- Contact Form -->
                 <div class="bg-zinc-950 border border-zinc-800 p-6 md:p-8 rounded-lg">
 
@@ -516,23 +536,15 @@
                         </div>
 
                         <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            placeholder="Enter your name"
-                            required
-                            class="w-full bg-zinc-900 border border-zinc-700 p-3 rounded mb-5 text-white">
+                            type="text" id="name" name="name" placeholder="Enter your name" required class="w-full bg-zinc-900 border border-zinc-700 p-3 rounded mb-5 text-white">
 
                         <div for="email" class="block mb-2">
                             Email Address
                         </div>
 
                         <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="Enter your email"
-                            required
+                            type="email" id="email" name="email"
+                            placeholder="Enter your email" required
                             class="w-full bg-zinc-900 border border-zinc-700 p-3 rounded mb-5 text-white">
 
                         <div for="phone" class="block mb-2">
@@ -540,20 +552,14 @@
                         </div>
 
                         <input
-                            type="tel"
-                            id="phone"
-                            name="phone"
-                            placeholder="Enter your phone number"
-                            class="w-full bg-zinc-900 border border-zinc-700 p-3 rounded mb-5 text-white">
+                            type="tel" id="phone" name="phone" placeholder="Enter your phone number" class="w-full bg-zinc-900 border border-zinc-700 p-3 rounded mb-5 text-white">
 
                         <div for="program" class="block mb-2">
                             Select Program
                         </div>
 
                         <select
-                            id="program"
-                            name="program"
-                            class="w-full bg-zinc-900 border border-zinc-700 p-3 rounded mb-5 text-white">
+                            id="program" name="program" class="w-full bg-zinc-900 border border-zinc-700 p-3 rounded mb-5 text-white">
 
                             <option>Strength Training</option>
                             <option>Functional Fitness</option>
@@ -569,13 +575,14 @@
                         <textarea
                             id="message" name="message" rows="4" placeholder="Tell us about your fitness goals" required class="w-full bg-zinc-900 border border-zinc-700 p-3 rounded mb-5 text-white"></textarea>
 
-                        <button type="submit" class="w-full bg-orange-500 text-black py-4 font-bold rounded hover:bg-orange-400">SEND MESSAGE → </button>
+                        <button type="submit" class="w-full bg-orange-500 text-black py-4 font-bold rounded hover:bg-orange-400">
+                            SEND MESSAGE → 
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- FOOTER -->
     <footer class="bg-zinc-950 border-t border-zinc-800 py-10">
@@ -584,7 +591,7 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <div>
-                    <a href="#home" class="text-2xl font-black">
+                    <a href="home" class="text-2xl font-black">
                         IRON<span class="text-orange-500">PULSE</span>
                     </a>
 
@@ -594,32 +601,41 @@
                 </div>
 
                 <div>
-                    <h3 class="font-bold text-lg">Quick Links</h3>
+                    <h3 class="font-bold text-lg">
+                        Quick Links
+                    </h3>
 
                     <div class="mt-4 space-y-3 text-gray-400">
-                        <a href="#about" class="block hover:text-orange-500">About Us</a>
-                        <a href="#programs" class="block hover:text-orange-500">Programs</a>
-                        <a href="#trainers" class="block hover:text-orange-500">Trainers</a>
-                        <a href="#membership" class="block hover:text-orange-500">Membership</a>
+                        <a href="about" class="block hover:text-orange-500">
+                            About Us
+                        </a>
+                        <a href="#programs" class="block hover:text-orange-500">
+                            Programs
+                        </a>
+                        <a href="#trainers" class="block hover:text-orange-500">
+                            Trainers
+                        </a>
+                        <a href="#membership" class="block hover:text-orange-500">
+                            Membership
+                        </a>
                     </div>
                 </div>
 
                 <div>
-                    <h3 class="font-bold text-lg">Visit Our Studio</h3>
+                    <h3 class="font-bold text-lg">
+                        Visit Our Studio
+                    </h3>
                     <p class="text-gray-400 mt-4">
                         Malviya Nagar, Jaipur, Rajasthan
                     </p>
 
-                    <a href="#contact"
+                    <a href="contact"
                        class="inline-block mt-4 text-orange-500 font-bold">
                         Contact Us →
                     </a>
                 </div>
-
             </div>
-
         </div>
     </footer>
-
 </body>
 </html>
